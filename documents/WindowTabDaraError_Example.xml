@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:readDataResponse xmlns:ns1="http://idempiere.org/ADInterface/1_0">
+      <WindowTabData xmlns="http://idempiere.org/ADInterface/1_0">
+        <Error>Error login - User invalid</Error>
+      </WindowTabData>
+    </ns1:readDataResponse>
+  </soap:Body>
+</soap:Envelope>
