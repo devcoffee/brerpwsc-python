@@ -299,8 +299,8 @@ class ResponseFactory():
 
             for row in rows:
                 fields = self.find_elements_0(row, 'field')
-                response.data_set.append(temp_row)
                 temp_row = []
+                response.data_set.append(temp_row)
                 for f in fields:
                     field = brerpwsc.base.Field()
                     field.column = f.get('column')

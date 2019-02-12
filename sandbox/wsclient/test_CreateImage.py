@@ -37,17 +37,19 @@ from random import randint
 import traceback
 
 url = 'https://test.idempiere.org'
-urls = 'https://test.idempiere.org'
+urls = 'https://teste.brerp.com.br'
 
 # CREATE LOGIN
 login = LoginRequest()
-login.client_id = 11
-login.org_id = 0
-login.role_id = 102
-login.warehouse_id = 50002
+login.client_id = 1000000
+login.org_id = 5000003
+login.role_id = 1000000
+login.warehouse_id = 5000007
+login.user = 'superuser @ brerp.com.br'
+login.password = 'sua senha aqui'
 
 # CREATE WEBSERVICE FOR IMAGE
-path_image = '../documents/idempiere-logo.png'
+path_image = '../documents/brerp-logo.png'
 
 ws1 = CreateDataRequest()
 ws1.web_service_type = 'CreateImageTest'
@@ -64,7 +66,7 @@ ws1.data_row.append(binary_field)
 # CREATE WEBSERVICE FOR BPARTNER
 ws2 = CreateDataRequest()
 ws2.web_service_type = 'CreateBPartnerTest'
-ws2.data_row.append(Field('Name', 'Business Partner Test'))
+ws2.data_row.append(Field('Name', 'Chicão de Negócios do BrERP'))
 ws2.data_row.append(Field('Value', str(randint(1000000, 10000000))))
 # ws2.data_row.append(Field('TaxID', '987654321'))
 ws2.data_row.append(Field('Logo_ID', '@AD_Image.AD_Image_ID'))
@@ -78,7 +80,7 @@ ws0.web_service_type='CompositeBPartnerTest'
 
 # CREATE CONNECTION
 wsc=WebServiceConnection()
-wsc.url=url
+wsc.url=urls
 wsc.attempts=3
 wsc.app_name='Test from python'
 

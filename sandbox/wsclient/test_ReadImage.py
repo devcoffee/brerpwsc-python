@@ -29,19 +29,20 @@ from brerpwsc.net import WebServiceConnection
 import traceback
 
 url = 'http://localhost:8031'
-urls = 'https://localhost:8431'
+urls = 'https://teste.brerp.com.br'
 
 login = LoginRequest()
-login.client_id = 11
-login.org_id = 0
-login.role_id = 102
-login.password = 'System'
-login.user = 'SuperUser'
+login.client_id = 1000000
+login.org_id = 5000003
+login.role_id = 1000000
+login.warehouse_id = 5000007
+login.user = 'superuser @ brerp.com.br'
+login.password = 'sua senha aqui'
 
 ws = ReadDataRequest()
 ws.web_service_type = 'ReadImageTest'
 ws.login = login
-ws.record_id = 1000002
+ws.record_id = 1516649
 
 wsc = WebServiceConnection()
 wsc.url = urls
@@ -65,7 +66,7 @@ try:
                     str(field.value)
                 ))
                 if str(field.column) == 'BinaryData':
-                    with open('newFile.png', 'wb'):
+                    with open('/home/pedro/Documentos/newFile.png', 'wb') as file:
                         file.write(field.get_byte_value())
             print('')
         print('-' * 45)

@@ -28,7 +28,7 @@ Contributor: @pozzisan <pedropozzif@gmail.com>
 
 from brerpwsc.net import WebServiceConnection
 
-url = 'http://dev11.devcoffee.com.br/ADInterface/services/ModelADService'
+url = 'http://teste.brerp.com.br/ADInterface/services/ModelADService'
 urls = 'https://localhost:8431/ADInterface/services/ModelADService'
 
 

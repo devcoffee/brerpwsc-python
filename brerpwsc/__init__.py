@@ -22,6 +22,6 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 Rua Paulo Rebessi 665 - Cidade Jardim - Leme/SP - Brasil.                           
 """
 
-name = "BrERP Web Service Client";
-component_name = "brerpwsc";
-version = "1.0.0";
+name = "BrERP Web Service Client"
+component_name = "brerpwsc"
+version = "1.0.0"

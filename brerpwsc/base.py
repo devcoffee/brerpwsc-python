@@ -81,13 +81,10 @@ class Field(object):
 
     def get_byte_value(self):
         """
-        Return unicode String of byte value
-        :return: String
+        Return decoded Base64 Byte Value
+        :return: Bytes
         """
-        if version_info[0] == '2':
-            return b64decode(self.value)
-        else:
-            return self.value if self.value else False
+        return b64decode(self.value) if self.value else False
 
     def get_boolean_value(self):
         """
