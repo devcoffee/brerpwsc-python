@@ -126,7 +126,6 @@ from random import randint
 import traceback
 
 #Urls de envio
-url = 'https://test.idempiere.org'
 urls = 'https://teste.brerp.com.br'
 
 # Informações de Login do Web Service
