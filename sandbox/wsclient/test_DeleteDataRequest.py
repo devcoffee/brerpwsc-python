@@ -3,7 +3,7 @@
 Produto: BrERP Web Service Client - Python                                                    
 Copyright (C) 2018  devCoffee Sistemas de Gestão Integrada                 
                                                                            
-Este arquivo é parte do DocxSimplifier que é software livre; você pode     
+Este arquivo é parte do BrERP Web Service Client - Python que é software livre; você pode     
 redistribuí-lo e/ou modificá-lo sob os termos da Licença Pública Geral GNU,
 conforme publicada pela Free Software Foundation; tanto a versão 3 da      
 Licença como (a seu critério) qualquer versão mais nova.                   
@@ -28,15 +28,15 @@ from brerpwsc.enums import WebServiceResponseStatus
 from brerpwsc.net import WebServiceConnection
 import traceback
 
-url = 'http://localhost:8031'
-urls = 'https://localhost:8431'
+url = 'https://teste.brerp.com.br'
 
 login = LoginRequest()
-login.client_id = 11
-login.org_id = 0
-login.role_id = 102
-login.password = 'System'
-login.user = 'SuperUser'
+login.client_id = 1000000
+login.org_id = 5000003
+login.role_id = 1000000
+login.warehouse_id = 5000007
+login.password = 'sua senha aqui'
+login.user = 'superuser @ brerp.com.br'
 
 ws = DeleteDataRequest()
 ws.web_service_type = 'DeleteBPartnerTest'
@@ -44,7 +44,7 @@ ws.login = login
 ws.record_id = 1000085
 
 wsc = WebServiceConnection()
-wsc.url = urls
+wsc.url = url
 wsc.attempts = 3
 wsc.app_name = 'Test from python'
 

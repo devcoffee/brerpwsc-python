@@ -34,21 +34,21 @@ from brerpwsc.base import Field
 import traceback
 import random
 
-url = 'http://test.idempiere.org/'
-urls = 'https://test.idempiere.org/'
+url = 'http://dev11.devcoffee.com.br/'
 login = LoginRequest()
-login.client_id = 11
-login.org_id = 0
-login.role_id = 102
-login.password = 'System'
-login.user = 'SuperUser'
+login.client_id = 1000000
+login.org_id = 5000003
+login.role_id = 1000000
+login.warehouse_id = 5000007
+login.user = 'superuser @ brerp.com.br'
+login.password = 'pp_brerp'
 
 ws = CreateDataRequest()
 ws.web_service_type = 'CreateBPartnerTest'
 ws.login = login
 
 ws.data_row = [
-    Field('Name', 'Business Partner Test'), 
+    Field('Name', 'Chicão Refatorado'), 
     Field('Value', 
         str(random.randint(1000000, 10000000))
     ),
@@ -56,7 +56,7 @@ ws.data_row = [
 ]
 
 wsc = WebServiceConnection()
-wsc.url = urls
+wsc.url = url
 wsc.attempts = 3
 wsc.app_name = 'Test from python'
 

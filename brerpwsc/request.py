@@ -3,7 +3,7 @@
 Produto: BrERP Web Service Client - Python                                                    
 Copyright (C) 2018  devCoffee Sistemas de Gestão Integrada                 
                                                                            
-Este arquivo é parte do DocxSimplifier que é software livre; você pode     
+Este arquivo é parte do BrERP Web Service Client - Python que é software livre; você pode     
 redistribuí-lo e/ou modificá-lo sob os termos da Licença Pública Geral GNU,
 conforme publicada pela Free Software Foundation; tanto a versão 3 da      
 Licença como (a seu critério) qualquer versão mais nova.                   
