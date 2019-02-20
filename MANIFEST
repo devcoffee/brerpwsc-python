@@ -1,0 +1,2 @@
+include doc/source/*rst
+recursive-include project_name/data *
