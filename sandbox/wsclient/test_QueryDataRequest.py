@@ -35,7 +35,7 @@ login.client_id = 1000000
 login.org_id = 5000003
 login.role_id = 1000000
 login.warehouse_id = 5000007
-login.password = 'cafe123'
+login.password = 'sua senha aqui'
 login.user = 'superuser @ brerp.com.br'
 
 query = QueryDataRequest()
