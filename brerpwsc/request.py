@@ -31,7 +31,7 @@ import sys
 
 class CompositeOperationRequest(base.CompositeRequest):
     """
-    iDempiere Web Service Composite
+    BrERP Web Service Composite
     """
 
     def __init__(self):
@@ -49,7 +49,7 @@ class CompositeOperationRequest(base.CompositeRequest):
 
 class CreateDataRequest(base.ModelCRUDRequest):
     """
-    iDempiere Web Service CreateData
+    BrERP Web Service CreateData
     """
 
     def __init__(self):
@@ -67,7 +67,7 @@ class CreateDataRequest(base.ModelCRUDRequest):
 
 class CreateUpdateDataRequest(base.ModelCRUDRequest):
     """
-    iDempiere Web Service CreateUpdateData
+    BrERP Web Service CreateUpdateData
     """
 
     def __init__(self):
@@ -85,7 +85,7 @@ class CreateUpdateDataRequest(base.ModelCRUDRequest):
 
 class DeleteDataRequest(base.ModelCRUDRequest):
     """
-    iDempiere Web Service DeleteDataRequest
+    BrERP Web Service DeleteDataRequest
     """
 
     def __init__(self):
@@ -103,7 +103,7 @@ class DeleteDataRequest(base.ModelCRUDRequest):
 
 class UpdateDataRequest(base.ModelCRUDRequest):
     """
-    iDempiere Web Service UpdateDataRequest
+    BrERP Web Service UpdateDataRequest
     """
 
     def __init__(self):
@@ -121,7 +121,7 @@ class UpdateDataRequest(base.ModelCRUDRequest):
 
 class ReadDataRequest(base.ModelCRUDRequest):
     """
-    iDempiere Web Service ReadDataRequest
+    BrERP Web Service ReadDataRequest
     """
 
     def __init__(self):
@@ -139,7 +139,7 @@ class ReadDataRequest(base.ModelCRUDRequest):
 
 class QueryDataRequest(base.ModelCRUDRequest):
     """
-    iDempiere Web Service QueryDataRequest
+    BrERP Web Service QueryDataRequest
     """
 
     def __init__(self):
@@ -157,7 +157,7 @@ class QueryDataRequest(base.ModelCRUDRequest):
 
 class GetListRequest(base.ModelGetListRequest):
     """
-    iDempiere Web Service GetListRequest
+    BrERP Web Service GetListRequest
     """
 
     def __init__(self):
@@ -175,7 +175,7 @@ class GetListRequest(base.ModelGetListRequest):
 
 class RunProcessRequest(base.ModelRunProcessRequest):
     """
-    iDempiere Web Service RunProcessRequest
+    BrERP Web Service RunProcessRequest
     """
 
     def __init__(self):
@@ -193,7 +193,7 @@ class RunProcessRequest(base.ModelRunProcessRequest):
 
 class SetDocActionRequest(base.ModelSetDocActionRequest):
     """
-    iDempiere Web Service SetDocActionRequest
+    BrERP Web Service SetDocActionRequest
     """
 
     def __init__(self):

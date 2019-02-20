@@ -33,7 +33,6 @@ from random import randint
 import traceback
 
 #Urls de envio
-url = 'https://test.idempiere.org'
 urls = 'https://teste.brerp.com.br'
 
 # Informações de Login do Web Service
@@ -50,7 +49,7 @@ path_image = '../logo_brerp-300x86.png'
 
 ws1 = CreateDataRequest()
 ws1.web_service_type = 'CreateImageTest'
-ws1.data_row.append(Field('Name', 'idempiere-logo.png'))
+ws1.data_row.append(Field('Name', 'brerp-logo.png'))
 ws1.data_row.append(
     Field('Description', 'Test Create BPartner and Logo with Python'))
 

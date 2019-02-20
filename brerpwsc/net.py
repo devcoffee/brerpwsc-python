@@ -88,7 +88,7 @@ class WebServiceConnection():
 
     def path(self):
         """
-        Gets the path of iDempiere web services
+        Gets the path of BrERP web services
         :return:
         """
         if self.request is None:

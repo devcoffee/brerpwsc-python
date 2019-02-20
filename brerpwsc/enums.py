@@ -95,7 +95,7 @@ class ModelCRUDAction(Enum):
 
 class DocAction(Enum):
     """
-    iDempiere Document Action Values
+    BrERP Document Action Values
     """
     Complete = 'CO'
     WaitComplete = 'WC'
@@ -116,7 +116,7 @@ class DocAction(Enum):
 
 class DocStatus(Enum):
     """
-    iDempiere Document Status Values
+    BrERP Document Status Values
     """
     Drafted = 'DR'
     Completed = 'CO'
@@ -134,7 +134,7 @@ class DocStatus(Enum):
 
 class Language(Enum):
     """
-    iDempiere Language Values
+    BrERP Language Values
     """
     ar_AE = 'ar_AE'
     ar_BH = 'ar_BH'

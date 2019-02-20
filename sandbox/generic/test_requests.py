@@ -31,8 +31,7 @@ import requests
 
 urllib3.disable_warnings()
 
-url = 'http://test.idempiere.org/ADInterface/services/ModelADService'
-urls = 'https://localhost:8431/ADInterface/services/ModelADService'
+url = 'http://teste.brerp.com.br/ADInterface/services/ModelADService'
 headers = {
     'user-agent': 'my-app/0.0.1',
     'content-type': 'text/xml; charset=UTF-8'
@@ -50,10 +49,10 @@ def test_xml():
     <_0:serviceType>QueryBPartnerTest</_0:serviceType>
     </_0:ModelCRUD>
     <_0:ADLoginRequest>
-    <_0:user>superuser @ idempiere.com</_0:user>
-    <_0:pass>System</_0:pass>
-    <_0:ClientID>11</_0:ClientID>
-    <_0:RoleID>102</_0:RoleID>
+    <_0:user>superuser @ brerp.com.br</_0:user>
+    <_0:pass>Sua Senha Aqui</_0:pass>
+    <_0:ClientID>1000000</_0:ClientID>
+    <_0:RoleID>1000000</_0:RoleID>
     </_0:ADLoginRequest>
     </_0:ModelCRUDRequest>
     </_0:queryData>

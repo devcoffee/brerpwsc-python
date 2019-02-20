@@ -37,7 +37,7 @@ from sys import version_info
 
 class LoginRequest(object):
     """
-    Class to abstract the iDempiere Web Service Login
+    Class to abstract the BrERP Web Service Login
     """
 
     def __init__(self):
@@ -53,7 +53,7 @@ class LoginRequest(object):
 
 class Field(object):
     """
-    Class to abstract the iDempiere Web Service Login
+    Class to abstract the BrERP Web Service Login
     """
 
     def __init__(self, column='', value=''):
@@ -148,7 +148,7 @@ class Operation(object):
 
 class WebServiceResponse(object):
     """
-    Class to abstract the iDempiere response
+    Class to abstract the BrERP response
     """
     __metaclass__ = ABCMeta
 
@@ -164,7 +164,7 @@ class WebServiceResponse(object):
 
 class WebServiceRequest(object):
     """
-    Class to abstract the iDempiere request
+    Class to abstract the BrERP request
     """
     __metaclass__ = ABCMeta
 

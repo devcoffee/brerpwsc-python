@@ -142,7 +142,7 @@ path_image = '../documents/logo_brerp-300x86.png'
 
 ws1 = CreateDataRequest()
 ws1.web_service_type = 'CreateImageTest'
-ws1.data_row.append(Field('Name', 'idempiere-logo.png'))
+ws1.data_row.append(Field('Name', 'brerp-logo.png'))
 ws1.data_row.append(
     Field('Description', 'Test Create BPartner and Logo with Python'))
 
@@ -213,7 +213,7 @@ except:
               <_0:serviceType>CreateImageTest</_0:serviceType>
               <_0:DataRow>
                 <_0:field column="Name">
-                  <_0:val>idempiere-logo.png</_0:val>
+                  <_0:val>brerp-logo.png</_0:val>
                 </_0:field>
                 <_0:field column="Description">
                   <_0:val>Test Create BPartner and Logo with Python</_0:val>
