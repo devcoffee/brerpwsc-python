@@ -34,7 +34,7 @@ requirements = parse_requirements('requirements.txt', session=False)
 
 setup(
         name='brerpwsc',
-        version='1.0.1',
+        version='1.0.5',
         packages=['brerpwsc'],
         url='https://github.com/devcoffee/brerpwsc-python',
         license='LGPL 3',

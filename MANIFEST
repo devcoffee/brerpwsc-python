@@ -1,2 +1,9 @@
-include doc/source/*rst
-recursive-include project_name/data *
+requirements.txt
+setup.py
+brerpwsc/__init__.py
+brerpwsc/base.py
+brerpwsc/enums.py
+brerpwsc/exception.py
+brerpwsc/net.py
+brerpwsc/request.py
+brerpwsc/response.py
