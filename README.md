@@ -279,3 +279,4 @@ Response:  WebServiceResponseModel.StandardResponse
 A aplicação **Python** utilizando a biblioteca **brerpwsc** construiu o .xml e enviou a requisição ao servidor do **BrERP**. Se observarmos a janela de **Parceiro de Negócios** podemos observar que o parceiro de negócios definido no código foi criado, juntamente com a imagem de logo escolhida:
 
 ![TestBPartnerCreated.png](/documents/TestBPartnerCreated.png)
+
